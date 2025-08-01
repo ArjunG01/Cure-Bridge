@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CureBridge Hospital - Home</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.5));
+      min-height: 100vh;
+      color: #fff;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    .background-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 1rem 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+      background-color: rgba(0, 0, 50, 0.4);
+      backdrop-filter: blur(10px);
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    nav {
+      display: flex;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #00eaff;
+    }
+
+    .menu-toggle {
+      display: none;
+      font-size: 2rem;
+      cursor: pointer;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        background-color: rgba(0, 0, 50, 0.8);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        display: none;
+      }
+      nav.active {
+        display: flex;
+      }
+      .menu-toggle {
+        display: block;
+      }
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+      padding-top: 70px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      z-index: 5;
+      position: relative;
+    }
+
+    .content h1 {
+      font-size: clamp(3rem, 8vw, 6rem);
+      color: #00eaff;
+      text-shadow: 0 0 10px rgba(0, 234, 255, 0.5);
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      padding: 15px 30px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 2px solid #00eaff;
+      color: #fff;
+      font-size: 1.1rem;
+      font-weight: 500;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #00eaff;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay loop muted playsinline class="background-video" preload="auto">
+    <source src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/82f375e7-244f-4c21-90ac-9abd7549ed05" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo">CureBridge</a>
+    <div class="menu-toggle" onclick="document.querySelector('nav').classList.toggle('active')">
+      <i class='bx bx-menu'></i>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.jsp">About</a>
+      <a href="doctorLogin.jsp">Doctors</a>
+      <a href="appointment.jsp">Appointments</a>
+      <a href="contact.jsp">Contact</a>
+      <a href="loginChoice.jsp">Login</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <section class="content">
+    <h1>Your Health, Our Priority</h1>
+    <a href="appointment.jsp" class="btn">Book Appointment</a>
+  </section>
+
+</body>
+</html>
