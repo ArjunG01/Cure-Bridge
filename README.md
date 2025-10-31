@@ -1,4 +1,4 @@
-# 🏥 CureBridge - Hospital Doctor Appointment System
+# 🏥 Hospital Doctor Appointment System
 
 CureBridge is a web-based Doctor Appointment Booking System that allows patients to register, log in, book appointments, and manage their profiles. Doctors can log in, view appointments, approve or reject them, and manage their schedules. Built using **JSP, Java, HTML, CSS, Bootstrap, and MySQL**.
 
