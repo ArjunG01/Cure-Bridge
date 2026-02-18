@@ -165,7 +165,7 @@ Database name: **hospital_appointment**
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/CureBridge.git
+git clone https://github.com/ArjunG01/CureBridge.git
 cd CureBridge
 ```
 
