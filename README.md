@@ -85,7 +85,7 @@ It simulates a real-world healthcare booking workflow and demonstrates full-stac
 <a id="structure"></a>
 ## Project Structure 📁
 
-
+```
 CureBridge/
 ├── pom.xml
 └── src/main/webapp/
@@ -112,7 +112,7 @@ CureBridge/
     ├── saveAppointment.jsp
     ├── updateAppointmentStatus.jsp
     └── checkedAppointments.jsp
-
+```
 
 ---
 
@@ -166,16 +166,12 @@ Database name: **hospital_appointment**
 - Maven 3.6+
 - IDE (Eclipse / IntelliJ)
 
----
-
 ### 1. Clone Repository
 
 ```bash
 git clone https://github.com/ArjunG01/CureBridge.git
 cd CureBridge
 ```
-
----
 
 ### 2. Create Database
 
@@ -184,9 +180,7 @@ CREATE DATABASE hospital_appointment;
 USE hospital_appointment;
 ```
 
-Then create the tables using the schema above.
-
----
+Then create tables using the schema above.
 
 ### 3. Configure Database Connection
 
@@ -198,15 +192,13 @@ DriverManager.getConnection(
 );
 ```
 
----
-
 ### 4. Run Project
 
 ```bash
 mvn tomcat7:run
 ```
 
-Open:
+Open in browser:
 
 ```
 http://localhost:8080/CureBridge
@@ -225,15 +217,15 @@ http://localhost:8080/CureBridge
 
 ### Patient Flow
 
-1. Register → Login
-2. Book appointment
-3. View status in dashboard
+1. Register → Login  
+2. Book appointment  
+3. View status in dashboard  
 
 ### Doctor Flow
 
-1. Login
-2. View requests
-3. Approve / Reject
+1. Login  
+2. View requests  
+3. Approve / Reject  
 
 ---
 
@@ -266,11 +258,11 @@ http://localhost:8080/CureBridge
 
 Contributions are welcome!
 
-1. Fork project
-2. Create branch
-3. Commit changes
-4. Push
-5. Open pull request
+1. Fork project  
+2. Create branch  
+3. Commit changes  
+4. Push  
+5. Open pull request  
 
 ---
 
