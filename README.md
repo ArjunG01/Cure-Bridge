@@ -22,7 +22,7 @@
 
 ---
 
-## 📖 About the Project
+## About the Project 📖
 
 **CureBridge** is a full-stack hospital appointment management system that allows patients to easily book doctor appointments and enables doctors to manage requests in a centralized dashboard.
 
@@ -32,9 +32,9 @@ It simulates a real-world healthcare booking workflow and demonstrates full-stac
 
 ---
 
-## ✨ Key Features
+## Key Features ✨
 
-### 👤 Patient Side
+### Patient Side 👤
 
 - Secure registration and login
 - Browse doctors by specialty
@@ -46,7 +46,7 @@ It simulates a real-world healthcare booking workflow and demonstrates full-stac
 - Manage personal profile
 - Logout with session handling
 
-### 🩺 Doctor Side
+### Doctor Side 🩺
 
 - Dedicated doctor login portal
 - View appointment requests in dashboard
@@ -54,7 +54,7 @@ It simulates a real-world healthcare booking workflow and demonstrates full-stac
 - Manage profile
 - Track upcoming appointments
 
-### 🌐 General Features
+### General Features 🌐
 
 - Role-based authentication (Patient / Doctor)
 - Session-based security
@@ -66,7 +66,7 @@ It simulates a real-world healthcare booking workflow and demonstrates full-stac
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack 🛠️
 
 | Layer        | Technology |
 |-------------|------------|
@@ -79,7 +79,7 @@ It simulates a real-world healthcare booking workflow and demonstrates full-stac
 
 ---
 
-## 📁 Project Structure
+## Project Structure 📁
 
 ```
 CureBridge/
@@ -112,7 +112,7 @@ CureBridge/
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema 🗄️
 
 Database name: **hospital_appointment**
 
@@ -150,7 +150,7 @@ Database name: **hospital_appointment**
 
 ---
 
-## 🚀 Getting Started
+## Getting Started 🚀
 
 ### Prerequisites
 
@@ -178,10 +178,9 @@ Run this in MySQL:
 ```sql
 CREATE DATABASE hospital_appointment;
 USE hospital_appointment;
-
--- create patients, doctors, appointments tables
--- (use schema from README)
 ```
+
+Then create the tables using the schema above.
 
 ---
 
@@ -213,7 +212,7 @@ http://localhost:8080/CureBridge
 
 ---
 
-## 📱 Usage
+## Usage 📱
 
 | Role | URL |
 |------|-----|
@@ -235,7 +234,7 @@ http://localhost:8080/CureBridge
 
 ---
 
-## 🎨 UI Highlights
+## UI Highlights 🎨
 
 - Glassmorphism dashboard cards
 - Gradient backgrounds
@@ -246,7 +245,7 @@ http://localhost:8080/CureBridge
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements 🔮
 
 - Admin dashboard
 - Email notifications
@@ -257,7 +256,7 @@ http://localhost:8080/CureBridge
 
 ---
 
-## 🤝 Contributing
+## Contributing 🤝
 
 Contributions are welcome!
 
@@ -269,13 +268,13 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
+## License 📄
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+## Author 👨‍💻
 
 **Arjun Ghadage**  
 Built with ❤️ to simplify healthcare appointment management.
